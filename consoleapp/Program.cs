@@ -6,7 +6,8 @@ namespace consoleapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            RedisServer obj = new RedisServer();
+            obj.CallMe();
         }
     }
 }
